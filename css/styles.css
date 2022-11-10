@@ -17,7 +17,7 @@ a, a:hover, a:focus, a:active {
 body {
     margin: 0;
     padding: 0;
-    background: url("/img/background.jpg") repeat scroll;
+    background: url("../images/background.jpg") repeat scroll;
     font-family: "Liberation", Garamond, Verdana, Serif;
 }
 
