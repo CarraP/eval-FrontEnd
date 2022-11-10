@@ -1,14 +1,12 @@
 /***********************************
 FONTS 
 ************************************/
-
 @font-face {
     font-family: "Liberation";
     src: 
         url("/font/LiberationSans-Regular-webfont.ttf") format("ttf"),
         url("/font/LiberationSans-Bold-webfont.ttf") format("ttf");
 }
-
 /***********************************
 GENERALITES
 ************************************/
@@ -19,16 +17,19 @@ a, a:hover, a:focus, a:active {
 body {
     margin: 0;
     padding: 0;
-/*     background: url("/img/background.jpg") scroll no-repeat 50%; */
+    background: url("/img/background.jpg") repeat scroll;
     font-family: "Liberation", Garamond, Verdana, Serif;
 }
 
+/***********************************
+MOBIL FIRST
+************************************/
 /***********************************
 HEADER
 ************************************/
 header{
     padding: 40px 30px 10px 30px;
-    font-weight: bold
+    font-weight: bold;
 }
 .logo{
     text-align: center;
@@ -73,9 +74,9 @@ main{
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 100px;
 }
-
-
-
+/***********************************
+Chaque article (gant de boxe)
+************************************/
 .shop-article{
     margin: 10%;
     position: relative; /* essayer de retirer */
@@ -199,8 +200,10 @@ footer nav div{
 }
 
 
+
+
 /***********************************
-RESPONSIVE
+RESPONSIVE (DESKTOP)
 ************************************/
 @media only screen and (min-width: 577px){
     /***********************************
