@@ -4,8 +4,8 @@ FONTS
 @font-face {
     font-family: "Liberation";
     src: 
-        url("/font/LiberationSans-Regular-webfont.ttf") format("ttf"),
-        url("/font/LiberationSans-Bold-webfont.ttf") format("ttf");
+        url("../fonts/LiberationSans-Bold-webfont.ttf") format("ttf"),
+        url("../fonts/LiberationSans-Regular-webfont.ttf") format("ttf");
 }
 /***********************************
 GENERALITES
@@ -181,7 +181,7 @@ footer nav div{
     font-size: 0.7rem;
 }
 .delimiter{
-    width: 100%;
+    width: 80%;
     background-color: #818181;
     height: 3px;
     margin: 30px auto;
@@ -257,5 +257,8 @@ RESPONSIVE (DESKTOP)
     .footerMain{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+    }
+    .delimiter{
+        width: 100%;
     }
 }
